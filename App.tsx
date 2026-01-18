@@ -31,8 +31,8 @@ const App: React.FC = () => {
   const [showHelp, setShowHelp] = useState(false);
   
   const [userData, setUserData] = useState<UserData>({
-    handle: 'demo_user',
-    referrer: 'demo_ref',
+    handle: '',
+    referrer: '',
     isSolo: false,
     signalLevel: null,
     maxAllowedCommit: 2,
@@ -40,7 +40,7 @@ const App: React.FC = () => {
     multiplier: 1,
     baseRate: 400000,
     monkyEstimate: 0,
-    wallet: 'DemoWallet11111111111111111111111111111111',
+    wallet: '',
     proofLinks: {
       quote: '',
       tags: ''

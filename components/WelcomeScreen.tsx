@@ -45,11 +45,6 @@ const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onNext }) => {
         onClick={isClosed ? undefined : onNext}
       >
         <div className="absolute inset-0 bg-pink-500 transform rotate-3"></div>
-        <img 
-          src={bananaImage}
-          alt="Monky"
-          className="relative w-full h-full object-cover border-4 border-white"
-        />
         <div className="absolute -bottom-2 -right-2 bg-yellow-400 text-black p-1 text-[10px] font-black border-2 border-black">LIVE_FEED</div>
       </div>
 

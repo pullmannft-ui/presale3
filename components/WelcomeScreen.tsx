@@ -1,6 +1,5 @@
 
 import React, { useEffect, useState } from 'react';
-import bananaImage from '../banana.jpeg';
 
 interface WelcomeScreenProps {
   onNext: () => void;

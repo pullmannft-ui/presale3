@@ -6,8 +6,8 @@ export const GLOBAL_COMMIT_LIMITS = {
   MAX: 10.0 
 };
 
-// Mocking presale end time to 24 hours from now for the demo export const 
-PRESALE_END_TIME = Date.now() + 24 * 60 * 60 * 1000;
+// Presale ends on Jan 23, 2026 at 23:59:59 local time
+export const PRESALE_END_TIME = new Date(2026, 0, 23, 23, 59, 59, 999).getTime();
 
 export const TOKENOMICS = {
   TOTAL_SUPPLY: 1000000000,

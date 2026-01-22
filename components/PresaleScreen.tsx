@@ -348,11 +348,11 @@ const PresaleScreen: React.FC<PresaleScreenProps> = ({ userData, setUserData }) 
                       <div className="grid grid-cols-2 gap-3 text-center">
                         <div className="p-3 border border-pink-900/30 bg-pink-900/5">
                            <p className="text-[8px] font-black text-pink-700 uppercase">SUPPLY_SHARE</p>
-                           <p className="text-2xl font-black text-white">45%</p>
+                           <p className="text-2xl font-black text-white">50%</p>
                         </div>
                         <div className="p-3 border border-pink-900/30 bg-pink-900/5">
                            <p className="text-[8px] font-black text-pink-700 uppercase">LP_LOCK</p>
-                           <p className="text-2xl font-black text-white">25%</p>
+                           <p className="text-2xl font-black text-white">30%</p>
                         </div>
                       </div>
                    </div>
